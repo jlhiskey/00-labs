@@ -22,7 +22,9 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+I had to change allProducts to let because of localStorage. If allProducts was a constant is would remain a local array and wouldnt be able to pull from local storage.
+
+I also had to change totalClicks to let because that variable changes as the user clicks on the photos. If I had left it const then the user would vote forever.
 
 ---
 
