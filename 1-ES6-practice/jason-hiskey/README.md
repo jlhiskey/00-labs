@@ -30,4 +30,4 @@ I also had to change totalClicks to let because that variable changes as the use
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+I have discovered that there is a disinct difference between ' and `. I will be using template literal notation from now on.
